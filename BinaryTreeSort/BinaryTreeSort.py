@@ -22,7 +22,7 @@ def inserirGalho(raiz, valor):
         return raiz               #recebendo um galho direito e esquerdo e retornando uma nova raiz
 
 
-    #se a raiz tem umdado maior que o dado da variável valor, então o galho esquerdo de raiz 
+    #se a raiz tem um dado maior que o dado da variável valor, então o galho esquerdo de raiz 
     # recebe uma nova instância da classe NoDaArvore, guardando o dado da
     # variável valor e recebendo um galho direito e esquerdo
     if valor < raiz.valor:
@@ -56,9 +56,12 @@ def arvore(arr):
 
 tamanho = int(input("Informe o tamanho do array para ordenação: "))
 arr = [random.randint(1, 100+tamanho) for _ in range(tamanho)]
+
+
 print("Seu array inicial: ")
 for i in range(len(arr)):
         print(arr[i])
+
 
 print("Seu array ordenado: ")
 arvore(arr)

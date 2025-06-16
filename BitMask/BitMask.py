@@ -1,10 +1,10 @@
-def verifica(x:int, j:int ):  #verifica se o bit está ligado
+def verifica(x:int, j:int ):  #verifica se o bit está ligado  8 = 1000 || & (1011)
     if x&(1<<j):
         return True
     else:
         return False
     
-def liga(x:int, j:int):      #liga  o bit
+def liga(x:int, j:int):      #liga  o bit 
     x|=(1<<j)
     return x
 
@@ -35,22 +35,29 @@ while(True):
 
 
     numero = int(input("Informe o número: "))
-    indice_bit = int(input("Informe o índice do bit: "))
 
     if op == 1:
+        indice_bit = int(input("Informe o índice do bit: "))
+
         if verifica(numero,indice_bit):
             print("Bit ativo")
         else: print("Bit desligado")
 
     elif op==2:
+        indice_bit = int(input("Informe o índice do bit: "))
+
         retorno = liga(numero,indice_bit)
         print(f"Número atualizado: {retorno}.")
 
     elif op==3:
+        indice_bit = int(input("Informe o índice do bit: "))
+
         retorno = desliga(numero,indice_bit)
         print(f"Número atualizado: {retorno}.")
 
     elif op==4:
+        indice_bit = int(input("Informe o índice do bit: "))
+
         retorno = flip(numero,indice_bit)
         print(f"Número atualizado: {retorno}.")
 

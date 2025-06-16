@@ -14,6 +14,7 @@ peso_maximo = float(input("Peso máximo em Kg que a mochila aguenta: "))
 for i in range(quantidade_itens):
     v.append(float(input(f"Peso do item {i+1} em Kg: ")))
 
+
 for mask in range((1 << quantidade_itens)):
     soma = 0
     itens = []
@@ -21,7 +22,14 @@ for mask in range((1 << quantidade_itens)):
         if(mask &(1<<i)):
             soma+=v[i]
             itens.append(i+1)
-            
+
+
+#se temos 3 itens: 
+#1000 = 8 é o valor de mask, o range vai até 7, que em binario é 111 
+#011
+#100
+#
+#
 
     if  soma <= peso_maximo:
         if len(maior)<len(itens):

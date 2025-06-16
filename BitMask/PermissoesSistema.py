@@ -52,6 +52,7 @@ while(True):
              5 - adicionar usuário e permições
              Opção: """))
     if(op==1): break
+    
     elif(op==5):
         usuario = input("Inoforme o nome do user: ").upper()
         permissoesUsuario = darPermissao(usuario, usuarios)
