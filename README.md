@@ -11,7 +11,7 @@ Nesse repositório tem todo o trabalho desenvolvido:
 
 * [Código Bit Mask](https://github.com/rehbeinp/T2POOD/blob/main/BitMask/BitMask.py).
 
-* [Vídeo explicação Bit Mask Search](https://www.youtube.com/watch?v=4fMFwr-Znzs).
+* [Vídeo explicação Bit Mask Search](https://youtu.be/jw-tKjTyICs) ou [Vídeo explicação Bit Mask Search](https://www.youtube.com/watch?v=4fMFwr-Znzs).
 
 * [Vídeo explicação Binary Tree Sort](https://youtu.be/U1Vz_Ofh7fI).
 
