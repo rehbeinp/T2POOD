@@ -1,4 +1,4 @@
-def verifica(x:int, j:int ):  #verifica se o bit está ligado  8 = 1000 || & (1011)
+def verifica(x:int, j:int ):  #verifica se o bit está ligado
     if x&(1<<j):
         return True
     else:

@@ -9,7 +9,6 @@ class NoDaArvore:
 raiz = NoDaArvore()
 raiz = None
 
-
 def inserir(valor):
     global raiz          #chama a variavel global para passar como parametro
     raiz = inserirGalho(raiz, valor)
@@ -20,7 +19,6 @@ def inserirGalho(raiz, valor):
     if raiz == None:              #verifica se raiz guarda algum dado ou não
         raiz = NoDaArvore(valor)  # raiz recebe uma nova instância da classe NoDaArvore
         return raiz               #recebendo um galho direito e esquerdo e retornando uma nova raiz
-
 
     #se a raiz tem um dado maior que o dado da variável valor, então o galho esquerdo de raiz 
     # recebe uma nova instância da classe NoDaArvore, guardando o dado da

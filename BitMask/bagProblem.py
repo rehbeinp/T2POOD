@@ -23,14 +23,6 @@ for mask in range((1 << quantidade_itens)):
             soma+=v[i]
             itens.append(i+1)
 
-
-#se temos 3 itens: 
-#1000 = 8 é o valor de mask, o range vai até 7, que em binario é 111 
-#011
-#100
-#
-#
-
     if  soma <= peso_maximo:
         if len(maior)<len(itens):
             maior = itens
